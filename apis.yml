@@ -1,8 +1,24 @@
 aid: aim-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aim-security.png
 name: Aim Security
-description: Aim Security is a company surfaced as a portfolio company of canaan-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Aim Security was an Israeli cybersecurity company (founded 2022) that built a security
+  platform for enterprise adoption of generative AI and large language models — covering GenAI/LLM
+  data-loss prevention, prompt-injection and jailbreak defense, shadow-AI discovery, and governance
+  guardrails for employee use of AI applications. The company was acquired by Cato Networks and its
+  standalone site (aim.security) now permanently redirects to catonetworks.com; its technology has been
+  folded into the Cato SASE Cloud platform. As of this enrichment pass Aim Security exposes no
+  independent public developer API, documentation portal, SDKs, or MCP server of its own.
 url: https://raw.githubusercontent.com/api-evangelist/aim-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,29 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cato-networks
+x-website-redirect: https://www.catonetworks.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Security
+- AI Security
+- GenAI
+- LLM Security
+- Data Loss Prevention
+- Cybersecurity
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
