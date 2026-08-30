@@ -63,3 +63,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/cato-networks/
+  name: Cato Networks
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Cato Networks and its standalone site (aim."
